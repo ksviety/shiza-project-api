@@ -4,7 +4,7 @@ import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 import org.ksviety.shizaproject.app.api.pojo.elements.ReleaseBox
 
-fun getReleaseBoxesList(main: Element): Array<ReleaseBox> {
+fun getReleaseBoxesListOnStatus(main: Element): Array<ReleaseBox> {
 
     fun getReleaseBox(e: Element): ReleaseBox {
         val imageURL = e.getElementsByTag("img").first().absUrl("src")

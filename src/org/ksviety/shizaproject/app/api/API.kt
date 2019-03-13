@@ -4,6 +4,7 @@ import org.ksviety.shizaproject.app.api.core.DOMAIN
 import org.ksviety.shizaproject.app.api.core.Pages
 import org.ksviety.shizaproject.app.api.core.getDocument
 import org.ksviety.shizaproject.app.api.core.parser.*
+import org.ksviety.shizaproject.app.api.pojo.pages.ReleasePage
 import org.ksviety.shizaproject.app.api.pojo.pages.SearchPage
 import org.ksviety.shizaproject.app.api.pojo.pages.StatusPage
 
@@ -30,5 +31,21 @@ fun getSearchPage(request: String, tag: String): SearchPage {
         getSearchPageIndex(nav),
         getSearchPageLastIndex(nav),
         getReleaseBoxesListOnSearch(mainContent)
+    )
+}
+
+fun getReleasePage(url: String): ReleasePage {
+    val document = getDocument(url)
+    val mainContent = document.getElementsByClass("main-content").first()
+
+    return ReleasePage(
+        getReleasePageTitle(mainContent),
+        getReleasePageSecondaryDescription(mainContent),
+        getReleasePageDescription(mainContent),
+        getReleasePageGenres(mainContent),
+        getReleasePageImageURL(mainContent),
+        getReleasePageVideos(mainContent),
+        getReleasePageWorkers(mainContent),
+        null
     )
 }

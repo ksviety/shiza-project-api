@@ -2,7 +2,6 @@ package org.ksviety.shizaproject.app.api.core.parser
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
-import org.ksviety.shizaproject.app.api.core.getDocument
 import org.ksviety.shizaproject.app.api.pojo.elements.Video
 import org.ksviety.shizaproject.app.api.pojo.elements.Worker
 import kotlin.NullPointerException
@@ -85,10 +84,4 @@ fun getReleasePageVideos(main: Element): Array<Video> {
     } catch (e: NullPointerException) {}
 
     return videoList.toTypedArray()
-}
-
-//  REMOVE FOR PRODUCTION
-fun main() {
-    val main = getDocument("http://shiza-project.com/releases/view/1374").getElementsByClass("row reverse").first()
-    print(getReleasePageVideos(main).size)
 }

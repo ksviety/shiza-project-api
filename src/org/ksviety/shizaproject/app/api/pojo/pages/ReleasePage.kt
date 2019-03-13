@@ -12,7 +12,7 @@ data class ReleasePage(
     val imageURL: String,
     val videos: Array<Video>,
     val Workers: Array<Worker>,
-    val Comments: Array<Comment>) {
+    val Comments: Array<Comment>?) {
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
@@ -27,7 +27,6 @@ data class ReleasePage(
         if (imageURL != other.imageURL) return false
         if (!videos.contentEquals(other.videos)) return false
         if (!Workers.contentEquals(other.Workers)) return false
-        if (!Comments.contentEquals(other.Comments)) return false
 
         return true
     }
@@ -40,7 +39,6 @@ data class ReleasePage(
         result = 31 * result + imageURL.hashCode()
         result = 31 * result + videos.contentHashCode()
         result = 31 * result + Workers.contentHashCode()
-        result = 31 * result + Comments.contentHashCode()
         return result
     }
 

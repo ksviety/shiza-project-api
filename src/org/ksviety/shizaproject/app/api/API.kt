@@ -19,8 +19,8 @@ fun getStatusPage(page: Pages): StatusPage {
     )
 }
 
-fun getSearchPage(request: String): SearchPage {
-    val document = getDocument("$DOMAIN/releases/search?q=$request")
+fun getSearchPage(request: String, tag: String): SearchPage {
+    val document = getDocument("$DOMAIN/releases/search?q=$request&t=$tag")
     val mainContent = document.getElementsByClass("main-content").first()
     val nav = mainContent.getElementsByAttributeValue("role", "navigation").first()
 

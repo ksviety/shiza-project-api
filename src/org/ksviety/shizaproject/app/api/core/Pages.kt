@@ -1,43 +1,15 @@
 package org.ksviety.shizaproject.app.api.core
 
-const val DOMAIN: String = "http://www.shiza-project.com"
+object Pages {
 
-enum class Pages {
+    const val HOME = "http://www.shiza-project.com"
+    const val ABOUT = "$HOME/about"
 
-    STATUS_RECENT {
-        override fun toString(): String {
-            return "$DOMAIN/"
-        }
-    },
-    STATUS_ONGOINGS {
-        override fun toString(): String {
-            return "$DOMAIN/status/ongoing"
-        }
-    },
-    STATUS_NOVELTY {
-        override fun toString(): String {
-            return "$DOMAIN/status/novelty"
-        }
-    },
-    STATUS_COMPLETED {
-        override fun toString(): String {
-            return "$DOMAIN/status/completed"
-        }
-    },
-    STATUS_SUSPENDED {
-        override fun toString(): String {
-            return "$DOMAIN/status/suspended"
-        }
-    },
-    STATUS_PLANNED {
-        override fun toString(): String {
-            return "$DOMAIN/status/planned"
-        }
-    },
-    ABOUT {
-        override fun toString(): String {
-            return "$DOMAIN/about"
-        }
+    object STATUS {
+        const val ONGOINGS = "$HOME/status/ongoing"
+        const val NOVELTY = "$HOME/status/novelty"
+        const val COMPLETED = "$HOME/status/completed"
+        const val SUSPENDED = "$HOME/status/suspended"
+        const val PLANNED = "$HOME/status/planned"
     }
-
 }

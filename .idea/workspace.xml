@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ShizaProjectAPI-1.0:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1e1526-9aaa-4962-982e-24ac589fe544" name="Default Changelist" comment="" />
+    <list default="true" id="6b1e1526-9aaa-4962-982e-24ac589fe544" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/ReleasePageParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/ReleasePageParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/SearchPageParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/SearchPageParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/StatusPageParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/StatusPageParser.kt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,31 +25,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/pages/ReleasePage.kt">
+        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="108">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
-                <element signature="e#53#235#0" expanded="true" />
+                <element signature="e#42#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/ReleasePageParser.kt">
+        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/ReleasePageParser.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#54#273#0" expanded="true" />
                 <element signature="n#!!block;n#getReleasePageTitle#0" />
@@ -45,6 +49,27 @@
                 <element signature="n#!!block;n#getReleasePageWorkers#0" />
                 <element signature="n#!!block;n#getReleasePageVideos#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <element signature="e#47#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -61,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/Worker.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -96,9 +121,7 @@
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/ReleaseBox.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/StaticPages.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/StatusPages.kt" />
-        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/API.kt" />
-        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/SearchResultBox.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/pages/SearchPage.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/StatusPageParser.kt" />
@@ -108,12 +131,14 @@
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/Worker.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/Comment.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/pages/ReleasePage.kt" />
-        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt" />
         <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/ReleasePageParser.kt" />
+        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt" />
+        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt" />
+        <option value="$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="50" />
     <option name="width" value="1346" />
@@ -124,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,47 +175,15 @@
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="shiza-project-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiza-project-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiza-project-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiza-project-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiza-project-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiza-project-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiza-project-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiza-project-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552502734729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552914347897" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -213,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.org.ksviety.shizaproject.app.api.core.parser.ReleasePageParserKt">
+  <component name="RunManager" selected="Kotlin.org.ksviety.shizaproject.app.api.core.parsers.ReleasePageParserKt">
     <configuration name="org.ksviety.shizaproject.app.api.APIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ShizaProjectAPI" />
       <option name="VM_PARAMETERS" />
@@ -240,40 +234,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ksviety.shizaproject.app.api.core.parser.ReleasePageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="org.ksviety.shizaproject.app.api.core.parsers.ReleasePageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ShizaProjectAPI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parser.ReleasePageParserKt" />
+      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parsers.ReleasePageParserKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ksviety.shizaproject.app.api.core.parser.SearchPageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="org.ksviety.shizaproject.app.api.core.parsers.SearchPageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ShizaProjectAPI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parser.SearchPageParserKt" />
+      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parsers.SearchPageParserKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.ksviety.shizaproject.app.api.core.parser.StatusPageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="org.ksviety.shizaproject.app.api.core.parsers.StatusPageParserKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="ShizaProjectAPI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parser.StatusPageParserKt" />
+      <option name="MAIN_CLASS_NAME" value="org.ksviety.shizaproject.app.api.core.parsers.StatusPageParserKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,10 +275,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parser.ReleasePageParserKt" />
+        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parsers.ReleasePageParserKt" />
         <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.APIKt" />
-        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parser.SearchPageParserKt" />
-        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parser.StatusPageParserKt" />
+        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parsers.SearchPageParserKt" />
+        <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.parsers.StatusPageParserKt" />
         <item itemvalue="Kotlin.org.ksviety.shizaproject.app.api.core.NetworkingKt" />
       </list>
     </recent_temporary>
@@ -306,7 +300,7 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,29 +336,8 @@
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/m.kt" />
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/status/ReleaseBox.kt" />
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/API.kt" />
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/pages/StatusPage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/SearchResultBox.kt" />
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/StatusPageParser.kt">
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/StatusPageParser.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="6" selection-start-line="6" selection-end-line="27" selection-end-column="1" />
@@ -385,7 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/SearchPageParser.kt">
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/SearchPageParser.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="37" column="90" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
@@ -409,6 +382,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Networking.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#47#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/Pages.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/Video.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -418,22 +408,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/elements/Worker.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parser/ReleasePageParser.kt">
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/core/parsers/ReleasePageParser.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#54#273#0" expanded="true" />
             <element signature="n#!!block;n#getReleasePageTitle#0" />
@@ -455,16 +438,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/pojo/pages/StatusPage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/ksviety/shizaproject/app/api/API.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ShizaProjectAPI-1.0:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -495,7 +497,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>11.0.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

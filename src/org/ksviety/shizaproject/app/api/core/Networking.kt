@@ -23,5 +23,5 @@ fun getDocument(url: String): Document {
 
     } catch (e: Exception) {}
 
-    return Jsoup.parse(html, DOMAIN)
+    return Jsoup.parse(html, Pages.HOME)
 }

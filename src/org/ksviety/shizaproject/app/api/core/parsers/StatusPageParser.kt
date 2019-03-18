@@ -1,4 +1,4 @@
-package org.ksviety.shizaproject.app.api.core.parser
+package org.ksviety.shizaproject.app.api.core.parsers
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements

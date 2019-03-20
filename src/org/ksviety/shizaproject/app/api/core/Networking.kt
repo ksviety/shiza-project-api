@@ -20,7 +20,8 @@ fun getDocument(url: String): Document {
         connection.setRequestProperty("User-Agent", "$AGENT_NAME/$API_VERSION by $AUTHOR (JVM)")
 
         html = connection.inputStream.bufferedReader().readText()
-
+        
+        connection.disconnect()
     } catch (e: Exception) {}
 
     return Jsoup.parse(html, Pages.HOME)
